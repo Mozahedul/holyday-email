@@ -1,0 +1,263 @@
+<mjml>
+  <mj-head>
+    <!-- Email Subject Preview -->
+    <mj-preview>
+      Limited-time offer on handcrafted ceramic mugs. Shop now before it's gone.
+    </mj-preview>
+
+    <!-- Breakpoint -->
+    <mj-breakpoint width="480px" />
+
+    <!-- Email Title -->
+    <mj-title>Obsidian Ceramic Mug – Special Offer</mj-title>
+
+    <!-- Google Font -->
+    <mj-font
+      name="Lora"
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+    />
+
+    <!--
+    ================================================
+      COLOR SYSTEM
+    ================================================
+
+      LIGHT MODE
+      ----------
+      Email outer bg        → #f4f4f4
+      Section bg            → #ffffff
+      Card bg               → #f8f8f8
+      Border                → #e8e8e8
+      Heading               → #111111
+      Subheading            → #444444
+      Body text             → #666666
+      Muted                 → #888888
+      Footer text           → #999999
+
+      DARK MODE
+      ----------
+      Email outer bg        → #111111
+      Section bg            → #1a1a1a
+      Card bg               → #222222
+      Border                → #333333
+      Heading               → #f0f0f0
+      Subheading            → #cccccc
+      Body text             → #aaaaaa
+      Muted                 → #888888
+      Footer text           → #666666
+
+      ACCENT (both modes)
+      -------------------
+      Primary green         → #1a5c38
+      Amber                 → #c97d2e
+
+      DIVIDERS
+      --------
+      Light                 → #e8e8e8  (dark: #333333)
+      Strong                → #cccccc  (dark: #444444)
+    ================================================
+    -->
+    <!-- Global Attributes -->
+    <mj-attributes>
+      <!-- Entire Email -->
+      <mj-all
+        font-family="'Lora', Georgia, 'Times New Roman', Arial, serif"
+        color="#444444"
+        line-height="1.5"
+      />
+
+      <!-- Body -->
+      <mj-body background-color="#f4f4f4" />
+
+      <!-- Sections -->
+      <mj-section padding="0" background-color="#ffffff" />
+
+      <!-- Columns -->
+      <mj-column padding="0" />
+
+      <!-- Text -->
+      <mj-text
+        padding="0"
+        font-size="16px"
+        line-height="24px"
+        color="#444444"
+      />
+
+      <!-- Buttons — primary default -->
+      <mj-button
+        border-radius="4px"
+        font-size="14px"
+        font-weight="600"
+        inner-padding="14px 28px"
+        padding="0"
+        background-color="#111111"
+        color="#ffffff"
+      />
+
+      <!-- Images -->
+      <mj-image padding="0" border="0" fluid-on-mobile="true" />
+
+      <!-- Divider -->
+      <mj-divider
+        border-style="solid"
+        border-color="#e8e8e8"
+        border-width="1px"
+        width="100%"
+        align="left"
+        padding="15px 0"
+      />
+    </mj-attributes>
+
+    <!-- STYLE BLOCK 1: Inlined regular styles -->
+    <mj-style inline="inline">
+      a {
+        text-decoration: none;
+      }
+      img {
+        display: block;
+        border: 0;
+        outline: none;
+        text-decoration: none;
+      }
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    </mj-style>
+
+    <!-- Raw meta tags -->
+    <mj-raw>
+      <meta charset="UTF-8" /> <meta http-equiv="X-UA-Compatible"
+      content="IE=edge" /> <meta name="viewport" content="width=device-width,
+      initial-scale=1.0" /> <meta name="format-detection" content="telephone=no,
+      date=no, address=no, email=no, url=no" /> <meta
+      name="x-apple-disable-message-reformatting" /> <meta
+      http-equiv="List-Unsubscribe"
+      content="<mailto:unsubscribe@example.com?subject=unsubscribe>,
+      <https://example.com/unsubscribe>" />
+    </mj-raw>
+  </mj-head>
+
+  <mj-body width="600px" background-color="#f4f4f4">
+    <!-- Hero Section With Overlay Text -->
+    <!-- Vertical Length Image  -->
+    <mj-hero
+      mode="fixed-height"
+      height="500px"
+      background-url="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779208775/email-portfolio/holyday-email/images/bg-hollyday_hcs3lq.png"
+      background-color="#c43623"
+      background-width="600px"
+      vertical-align="top"
+      background-position="center center"
+    >
+      <!-- ============================================================ -->
+      <!-- LOGO                                                          -->
+      <!-- ============================================================ -->
+
+      <mj-image
+        fluid-on-mobile="false"
+        src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779209617/email-portfolio/holyday-email/images/logo_dtx3pj.png"
+        alt="Ultimate Technology Limited"
+        href="https://taqwaitagncy.com"
+        padding="16px 0"
+        width="120px"
+      />
+
+      <!-- Hero Heading -->
+      <mj-text
+        font-family="'Lora', Georgia, 'Times New Roman', Arial, serif"
+        color="#ffffff"
+        font-weight="400"
+        font-size="40px"
+        line-height="1.5"
+        align="center"
+        padding="15px 10px"
+        font-style="italic"
+      >
+        <span>Happy</span><br />
+        <span>Holydays!</span>
+      </mj-text>
+
+      <!-- Hero Description -->
+      <mj-text
+        font-family="'Lora', Georgia, 'Times New Roman', Arial, serif"
+        font-size="15px"
+        line-height="1.6"
+        color="#ffffff"
+        align="center"
+        padding="10px 15px"
+      >
+        <span>Wishing you job, love, and</span><br />
+        <span>wondder this holyday season</span>
+      </mj-text>
+      <mj-text
+        font-family="'Lora', Georgia, 'Times New Roman', Arial, serif"
+        font-size="14px"
+        line-height="1.6"
+        color="#e06252"
+        align="center"
+        font-weight="500"
+        padding="15px"
+      >
+        <span>Thank you for being a part</span><br />
+        <span>of our community</span>
+      </mj-text>
+      <mj-image
+        fluid-on-mobile="false"
+        src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779208775/email-portfolio/holyday-email/images/gift_xzp5ah.png"
+        alt="gift for happy holydays"
+        width="50px"
+        padding="20px 0"
+      />
+      <!-- MJML Large Button -->
+
+      <mj-button
+        width="220px"
+        line-height="1.1"
+        font-size="15px"
+        background-color="#c23b26"
+        text-transform="uppercase"
+        href="https://taqwaitagency.com"
+        inner-padding="15px 0"
+        padding="15px 0"
+      >
+        Shop holiday gifts
+      </mj-button>
+      <mj-text align="center" padding="15px 0px">
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          style="display: inline-block"
+        >
+          <img
+            src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779211585/email-portfolio/holyday-email/icons/facebook_aygafg.png"
+            alt="facebook link"
+            width="30px"
+          />
+        </a>
+        <a
+          href="https://x.com"
+          target="_blank"
+          style="display: inline-block; padding: 0px 15px"
+        >
+          <img
+            src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779211585/email-portfolio/holyday-email/icons/linkedin_bxmajx.png"
+            alt="facebook link"
+            width="30px"
+          />
+        </a>
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          style="display: inline-block"
+        >
+          <img
+            src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779211585/email-portfolio/holyday-email/icons/twitter_qymuc6.png"
+            alt="facebook link"
+            width="30px"
+          />
+        </a>
+      </mj-text>
+    </mj-hero>
+  </mj-body>
+</mjml>
