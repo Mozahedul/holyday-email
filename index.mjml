@@ -138,17 +138,15 @@
     </mj-raw>
   </mj-head>
 
-  <mj-body width="600px" background-color="#f4f4f4">
+  <mj-body width="375px" background-color="#f4f4f4">
     <!-- Hero Section With Overlay Text -->
     <!-- Vertical Length Image  -->
     <mj-hero
-      mode="fixed-height"
-      height="500px"
       background-url="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779208775/email-portfolio/holyday-email/images/bg-hollyday_hcs3lq.png"
       background-color="#c43623"
-      background-width="600px"
+      background-width="375px"
       vertical-align="top"
-      background-position="center center"
+      background-position="top center"
     >
       <!-- ============================================================ -->
       <!-- LOGO                                                          -->
@@ -188,7 +186,7 @@
         padding="10px 15px"
       >
         <span>Wishing you job, love, and</span><br />
-        <span>wondder this holyday season</span>
+        <span>wonder this holyday season</span>
       </mj-text>
       <mj-text
         font-family="'Lora', Georgia, 'Times New Roman', Arial, serif"
